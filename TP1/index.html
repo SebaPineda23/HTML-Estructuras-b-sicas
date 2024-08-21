@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico-Front End - HTML</title>
+    <style>
+        table {
+            width: 25%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<header style="display: flex; align-items: center; justify-content: center; background-color: yellow; border: 2px solid black">
+    <h1>TRABAJO PRÁCTICO Nº1 - Desarrollo de Software</h1>
+</header>
+<body style="margin: 0px;">
+    <ol>
+    <section id="estructura">
+    <h1><li>Estructura básica de HTML</li></h1>
+    <p>Este documento HTML tiene una estrucutra básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+</section>
+<section id="Encabezados y propiedades del texto">
+    <h2><li>Encabezados y propiedades del Texto</li></h2>
+    <p><b>Este es un texto en negrita.</b><br><i>Esto es texto en cursiva.</i><br><u>Esto es texto subrayado.</u></p>
+</section>
+<section id="División y agrupación de contenido">
+    <h3><li>División y agrupación de contenido</li></h3>
+    <div>
+        <b>Sección 1</b>
+        <p>Contenido de la primera sección agrupada en un div.</p>
+    </div>
+    <div>
+        <b>Sección 2</b>
+        <p>Contenido de la primera sección agrupada en un div.</p>
+    </div>
+</section>
+<section id="Enlaces y Listas">
+    <h4><li>Enlaces y Listas</li></h4>
+    <p>Visita nuestro <a href="https://www.youtube.com/watch?v=O8G9ytZg-bM" target="_blank" rel="noopener noreferrer">Sitio Web</a> para más información. <br>Enlaces internos:
+    <br>
+    <ul>
+        <a href="#estructura"><li>Ir a Estrucutra</li></a>
+        <a href="#multimedia"><li>Ir a Multimedia</li></a>
+        <a href="#formulario"><li>Ir a Formulario</li></a>
+    </ul>
+    </p>
+    <p> Lista Desordenada:
+        <ul>
+            <li>Primer ítem de una lista desordenada</li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul>
+    </p>
+    <p> Lista Ordenada:
+        <ol>
+            <li>Primer ítem de una lista ordenada</li>
+            <li>Segundo ítem de una lista ordenada</li>
+        </ol>
+    </p>
+</section>
+<section id="multimedia">
+    <h5><li>Elementos Multimedia</li></h5>
+    <img width="600px" src="https://radiografica.org.ar/wp-content/uploads/2022/12/ARGENTINA-CAMPEON-1140x800.jpg" alt="Selección Argentina">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DdpyIit7d18" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+    </audio>
+</section>
+<section id="tabla">
+    <h6><li>Tablas</li></h6>
+    <table>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1.1</td>
+                <td>Dato 2.1</td>
+            </tr>
+            <tr>
+                <td>Dato 1.2</td>
+                <td>Dato 2.2</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="formulario">
+    <h5><li>Formulario</li></h5>
+    <span>Nombre: </span><input type="text" name="nombre" placeholder="Nombre">
+    <span>Email: </span><input type="email" name="email" placeholder="Email">
+    <span>Texto: </span> <textarea name="texto" placeholder="Ingrese el texto"></textarea>
+    <button>Enviar</button>
+</section>
+    </ol>
+    <footer style="border: 2px solid black; width: 100%; background-color: yellow;">
+        <p style="margin-left: 5px;">Desarrollo de Software TP1</p>
+    </footer>
+</body>
+</html>
